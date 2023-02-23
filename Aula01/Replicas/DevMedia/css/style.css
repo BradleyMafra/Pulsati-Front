@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logoHeader{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1px solid rgb(218, 216, 216);
+}
+
+.logoHeader img{
+    padding: 20px;
+    width: 140px;
+    height: 70px;
+    border: none;
+}
+.logoHeader a:nth-child(1){
+    border-right: 1px solid rgb(218, 216, 216);
+}
+
+.logoHeader a{
+    text-decoration: none;
+    height: 70px;
+    gap: 10px;
+}
+
+.logoHeader p{
+    padding: 25px 8px;
+    color: grey;
+}
+.logoHeader p:hover{
+    color: black;
+}
+.headerDireita{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.headerDireita button{
+    margin-right: 10px;
+    height: 20px;
+    width: 100px;
+    border: none;
+    display: flex;
+    justify-content: end;
+    background-color: aqua;
+    border-radius: 10px 10px 10px 10px;
+}
+.headerDireita a:nth-child(2){
+    height: 10px;
+}
