@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 *{
     margin: 0;
     padding: 0;
@@ -133,4 +134,70 @@ section {
 }
 .text2 b{
     font-weight: 900;
+}
+.headerLogo{
+    height: 60px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.headerLogo img{
+    width: 120px;
+    height: 50px;
+    padding: 6px 8px;
+}
+
+.headerEsquerda a:nth-child(1){
+    width: 80px;
+    height: 40px;
+    display: flex;
+    text-decoration: none;
+    color: grey;
+}
+
+.headerLogo a:hover{
+    color: black;
+}
+
+.headerEsquerda a{
+    padding: 8px 8px;
+    width: 130px;
+    text-decoration: none;
+    color: grey;
+}
+
+.headerEsquerda {
+    display: flex;
+    padding: 10px 8px;
+    align-items: start;
+    justify-content: start;
+    border-left: 1px solid black;
+}
+
+.headerEsquerda a:nth-child(2){
+    width: 15 0px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+button{
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 50px ;
+    background-color: #0AC5D4;
+    font-family: Montserrat,sans-serif;;
+}
+.headerDireita{
+    height: 60px;
+    padding: 8px 8px;
 }
