@@ -1,54 +1,136 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.logoHeader{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 0.1px solid rgb(218, 216, 216);
-}
+ /* TODO O HEADER  */
 
-.logoHeader img{
-    padding: 20px;
-    width: 140px;
+.headerPrincipal{
     height: 70px;
+    display: flex;
+    align-items: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+header a img{
+    display: flex;
+    justify-content: start;
+    width: 150px;
+    height: 70px;
+    padding: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+.headerEsquerda .setaBaixo{
+    height: 30px;
+    width: 30px;
+    margin-top: 24px;
     border: none;
 }
-.logoHeader a:nth-child(1){
-    border-right: 1px solid rgb(218, 216, 216);
-}
 
-.logoHeader a{
+.headerEsquerda {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.headerEsquerda p{
+    padding: 30px 10px;
+}
+.headerEsquerda a{
+    font-size: 12px;
     text-decoration: none;
-    height: 70px;
-    gap: 10px;
+    color: rgba(55, 55, 55, 0.75);
+    font-family: Montserrat,sans-serif;
 }
-
-.logoHeader p{
-    padding: 25px 8px;
-    color: grey;
-}
-.logoHeader p:hover{
+.headerEsquerda a:hover{
     color: black;
 }
 .headerDireita{
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: flex;
+    align-items: center;
+}
+.material-symbols-outlined{
+    font-size: 12px;
+    padding: 16px 1px;
+    text-decoration: none;
+    color: rgba(55, 55, 55, 0.75);
+    font-family: Montserrat,sans-serif;
 }
 
 .headerDireita button{
-    margin-right: 10px;
-    height: 20px;
-    width: 100px;
+    height: 30px;
+    width: 150px;
+    border-radius: 50px;
     border: none;
-    display: flex;
-    justify-content: end;
-    background-color: aqua;
-    border-radius: 10px 10px 10px 10px;
+    background-color: #0AC5D4;
 }
-.headerDireita a:nth-child(2){
-    height: 10px;
+
+.headerDireita button:hover{
+    background-color: #59d6cd;
+}
+
+.headerDireita button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.headerDireita button a{
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: -6px;
+    font-family: Montserrat,sans-serif;
+}
+
+.headerDireita i{
+    color: #8795A2;
+}
+
+.headerDireita a img{
+    height: 50px;
+    width: 50px;
+    border-right: none;
+}
+
+.headerDireita a{
+    padding: 0px 10px;
+}
+
+/* PARTE DO MEIO DA PAGINA  */
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.esquerdaPagina{
+    width: 40%;
+}
+
+.tituloMetodo{
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    padding: 50px 10px 10px 50px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+.textoGrande{
+    font-size: 30px;
+    padding: 0px 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.texto2{
+    margin: 20px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+.text2 b{
+    font-weight: 900;
 }
