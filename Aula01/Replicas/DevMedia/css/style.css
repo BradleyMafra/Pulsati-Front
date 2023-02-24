@@ -1,54 +1,73 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.logoHeader{
+.headerLogo{
+    height: 60px;
     display: flex;
+    align-items: start;
     justify-content: space-between;
-    border-bottom: 0.1px solid rgb(218, 216, 216);
+    border-bottom: 1px solid black;
 }
 
-.logoHeader img{
-    padding: 20px;
-    width: 140px;
-    height: 70px;
-    border: none;
-}
-.logoHeader a:nth-child(1){
-    border-right: 1px solid rgb(218, 216, 216);
+.headerLogo img{
+    width: 120px;
+    height: 50px;
+    padding: 6px 8px;
 }
 
-.logoHeader a{
+.headerEsquerda a:nth-child(1){
+    width: 80px;
+    height: 40px;
+    display: flex;
     text-decoration: none;
-    height: 70px;
-    gap: 10px;
-}
-
-.logoHeader p{
-    padding: 25px 8px;
     color: grey;
 }
-.logoHeader p:hover{
+
+.headerLogo a:hover{
     color: black;
 }
-.headerDireita{
-    display: flex;
-    justify-content: start;
-    align-items: start;
+
+.headerEsquerda a{
+    padding: 8px 8px;
+    width: 130px;
+    text-decoration: none;
+    color: grey;
 }
 
-.headerDireita button{
-    margin-right: 10px;
-    height: 20px;
-    width: 100px;
-    border: none;
+.headerEsquerda {
     display: flex;
-    justify-content: end;
-    background-color: aqua;
-    border-radius: 10px 10px 10px 10px;
+    padding: 10px 8px;
+    align-items: start;
+    justify-content: start;
+    border-left: 1px solid black;
 }
-.headerDireita a:nth-child(2){
-    height: 10px;
+
+.headerEsquerda a:nth-child(2){
+    width: 15 0px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+button{
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 50px ;
+    background-color: #0AC5D4;
+    font-family: Montserrat,sans-serif;;
+}
+.headerDireita{
+    height: 60px;
+    padding: 8px 8px;
 }

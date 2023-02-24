@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+}
+
+body{
+  width: 100%;
 }
 
 header div:nth-child(2) {
@@ -114,13 +116,6 @@ a:hover {
   box-shadow: 0px 0px 5px 3px grey;
 }
 
-.rodape p {
-  display: flex;
-  justify-content: start;
-  align-items: start;
-  margin-top: 250px;
-  color: rgb(100, 100, 100);
-}
 
 .rodapeEsquerdo {
   gap: 10px;
@@ -142,11 +137,12 @@ a:hover {
   background-color: rgb(226, 225, 225);
   height: 30px;
 }
+
 .rodape p {
   display: flex;
-  padding: 6px 14px;
-  align-items: start;
-  justify-content: start;
+  justify-content: flex;
+  align-items: flex;
+  margin-top: 30%;
   color: rgb(100, 100, 100);
 }
 
@@ -160,9 +156,10 @@ a:hover {
   color: red;
 }
 
-.rodapePrincipal {
+.rodapePrincipal {  
+  width: 100%;
   display: flex;
-  padding: 6px 8px;
+  position: relative;
   justify-content: space-between;
   box-shadow: 0px -1px 1px 0px rgb(172, 172, 172);
   background-color: rgb(226, 225, 225);
